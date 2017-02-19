@@ -69,6 +69,7 @@ public class VisionArray extends Subsystem {
 			for(double centerY: centerYs){
 				SmartDashboard.putNumber("centerY", centerY);
 				centerYDataCount++;
+				SmartDashboard.putNumber("centerYDataCount", centerYDataCount);
 			}
 		}
 	
@@ -104,8 +105,10 @@ public class VisionArray extends Subsystem {
 			
 			
 			
+			
 		}
 	}
+	SmartDashboard.putBoolean("shootBool", RobotMap.shootReq);
 		
 	}
 	
